@@ -16,17 +16,17 @@
 .calculator{
     background: #233a1eb5;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
-.calculator form input{
+button{
     border: 0;
     outline: 0;
-    width: 60px;
+    width: 100px;
     height: 60px;
     border-radius: 30px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    font-size: 22px;
+    font-size: 30px;
     color: white;
     cursor: pointer;
     margin: 10px;
@@ -40,16 +40,18 @@ form .display input{
     text-align: right;
     flex: 1;
     font-size: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
+    background: rgba(188, 236, 206, 0.219);
+    color: white;
 }
-form input.zero{
-    width: 145px;
+form button.zero{
+    width: 225px;
 }
-form input.firstrow{
+form button.firstrow{
     background-color: rgba(154, 156, 156, 0.952);
     color: black;
 }
-form input.lastrow{
+form button.lastrow{
     background-color: rgba(219, 167, 69, 0.76);
 }
